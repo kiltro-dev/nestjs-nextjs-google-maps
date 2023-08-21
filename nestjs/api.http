@@ -1,1 +1,14 @@
 GET http://localhost:3000/routes
+
+###
+POST http://localhost:3000/routes
+Content-Type: application/json
+
+{
+  "name": "rota test",
+  "surce_id": "11111",
+  "description_id": "22222"
+}
+
+###
+GET http://localhost:3000/places?text=betim
